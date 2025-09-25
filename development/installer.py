@@ -64,16 +64,16 @@ def get_args_parser():
         "--frappe-repo",
         action="store",
         type=str,
-        help="frappe repo to use, default: https://github.com/frappe/frappe",  # noqa: E501
-        default="https://github.com/frappe/frappe",
+        help="frappe repo to use, default: https://github.com/vasanth-anisetty/frappe.git",  # noqa: E501
+        default="https://github.com/vasanth-anisetty/frappe.git",
     )
     parser.add_argument(
         "-t",
         "--frappe-branch",
         action="store",
         type=str,
-        help="frappe repo to use, default: version-15",  # noqa: E501
-        default="version-15",
+        help="frappe repo to use, default: develop",  # noqa: E501
+        default="develop",
     )
     parser.add_argument(
         "-p",
